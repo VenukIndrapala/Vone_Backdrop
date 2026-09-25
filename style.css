@@ -47,7 +47,7 @@ body{
 }
 .slide .tag{ color:var(--accent); letter-spacing:0.35em; text-transform:uppercase; font-weight:700; font-size:clamp(23px,1.8vw,28px); margin-bottom:1.4vh; }
 .slide h1{ color:var(--white); font-weight:800; font-size:clamp(64px,8vw,108px); line-height:1.08; }
-.slide p.lead{ color:var(--muted); font-weight:500; font-size:clamp(28px,2.3vw,36px); max-width:52vw; margin-top:2vh; line-height:1.5; }
+.slide p.lead{ color:var(--muted); font-weight:500; font-size:clamp(18px,1.5vw,24px); max-width:52vw; margin-top:2vh; line-height:1.5; }
 .logo-img{ width:clamp(440px,44vw,720px); margin-bottom:3.5vh; filter:drop-shadow(0 0 30px rgba(230,92,0,0.35)); }
 
 .stat-row{ display:flex; gap:5vw; margin-top:4vh; }
@@ -62,7 +62,7 @@ body{
   padding:3.6vh 2.2vw; width:23vw; min-width:280px;
 }
 .card .k{ color:var(--accent); font-weight:800; font-size:clamp(25px,1.9vw,32px); text-transform:uppercase; letter-spacing:0.08em; margin-bottom:1.2vh; }
-.card .v{ color:var(--white); font-weight:500; font-size:clamp(24px,1.5vw,28px); line-height:1.5; }
+.card .v{ color:var(--white); font-weight:500; font-size:clamp(16px,1.1vw,19px); line-height:1.5; }
 
 .leaders-img{ width:min(82vw,1100px); border-radius:16px; border:1px solid rgba(230,92,0,0.35); box-shadow:0 0 60px rgba(230,92,0,0.15); margin-top:2vh; }
 
@@ -72,7 +72,7 @@ body{
   box-shadow:0 0 60px rgba(230,92,0,0.18);
 }
 .qr-box img{ width:clamp(160px,14vw,220px); background:#fff; padding:14px; border-radius:12px; }
-.qr-box .scan{ color:var(--muted); font-weight:600; font-size:clamp(24px,1.5vw,28px); margin-top:2vh; letter-spacing:0.05em; }
+.qr-box .scan{ color:var(--muted); font-weight:600; font-size:clamp(16px,1.1vw,19px); margin-top:2vh; letter-spacing:0.05em; }
 
 .career-grid{ display:grid; grid-template-columns:1fr 1fr; gap:2.2vh 2vw; margin-top:3vh; max-width:92vw; }
 .career-card{
@@ -86,7 +86,7 @@ body{
 }
 .career-card .icn svg{ width:55%; height:55%; stroke:#fff; fill:none; stroke-width:2; }
 .career-card .body .t{ color:var(--white); font-weight:800; font-size:clamp(22px,1.5vw,26px); text-transform:uppercase; letter-spacing:0.04em; margin-bottom:0.6vh; }
-.career-card .body .d{ color:var(--muted); font-weight:500; font-size:clamp(20px,1.3vw,24px); line-height:1.4; }
+.career-card .body .d{ color:var(--muted); font-weight:500; font-size:clamp(14px,1vw,17px); line-height:1.4; }
 
 .footer-brand{ position:absolute; bottom:4vh; left:0; right:0; display:flex; align-items:center; justify-content:center; gap:14px; z-index:3; opacity:0.9; }
 
