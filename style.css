@@ -48,7 +48,7 @@ body{
 .slide .tag{ color:var(--accent); letter-spacing:0.35em; text-transform:uppercase; font-weight:700; font-size:clamp(23px,1.8vw,28px); margin-bottom:1.4vh; }
 .slide h1{ color:var(--white); font-weight:800; font-size:clamp(64px,8vw,108px); line-height:1.08; }
 .slide p.lead{ color:var(--muted); font-weight:500; font-size:clamp(28px,2.3vw,36px); max-width:52vw; margin-top:2vh; line-height:1.5; }
-.logo-img{ width:clamp(220px,22vw,360px); margin-bottom:3.5vh; filter:drop-shadow(0 0 30px rgba(230,92,0,0.35)); }
+.logo-img{ width:clamp(440px,44vw,720px); margin-bottom:3.5vh; filter:drop-shadow(0 0 30px rgba(230,92,0,0.35)); }
 
 .stat-row{ display:flex; gap:5vw; margin-top:4vh; }
 .stat{ display:flex; flex-direction:column; align-items:center; }
