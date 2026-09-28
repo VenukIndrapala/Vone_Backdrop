@@ -43,7 +43,7 @@ body{
   display:flex; flex-direction:column; align-items:center; justify-content:center;
   text-align:center; padding:6vh 8vw;
   opacity:0; transform:scale(0.97);
-  animation: cycle 45s infinite;
+  animation: cycle 50s infinite;
 }
 .slide .tag{ color:var(--accent); letter-spacing:0.35em; text-transform:uppercase; font-weight:700; font-size:clamp(23px,1.8vw,28px); margin-bottom:1.4vh; }
 .slide h1{ color:var(--white); font-weight:800; font-size:clamp(64px,8vw,108px); line-height:1.08; }
@@ -95,7 +95,7 @@ body{
 
 .footer-brand{ position:absolute; bottom:4vh; left:0; right:0; display:flex; align-items:center; justify-content:center; gap:14px; z-index:3; opacity:0.9; }
 
-/* 9 slides, 45s cycle, each visible ~5s with fade */
+/* 10 slides, 50s cycle, each visible ~5s with fade */
 .s1{ animation-delay:0s; }
 .s2{ animation-delay:5s; }
 .s3{ animation-delay:10s; }
@@ -105,12 +105,13 @@ body{
 .s7{ animation-delay:30s; }
 .s8{ animation-delay:35s; }
 .s9{ animation-delay:40s; }
+.s10{ animation-delay:45s; }
 
 @keyframes cycle{
   0%{ opacity:0; transform:scale(0.97) translateY(10px); }
-  2.2%{ opacity:1; transform:scale(1) translateY(0); }
-  9.5%{ opacity:1; transform:scale(1) translateY(0); }
-  11.2%{ opacity:0; transform:scale(0.97) translateY(-10px); }
+  2%{ opacity:1; transform:scale(1) translateY(0); }
+  8.6%{ opacity:1; transform:scale(1) translateY(0); }
+  10.1%{ opacity:0; transform:scale(0.97) translateY(-10px); }
   100%{ opacity:0; }
 }
 
